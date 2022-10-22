@@ -9,16 +9,16 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Frame  BackgroundColor="DarkBlue" Margin="10" CornerRadius="20" Padding="14" HasShadow="True">
-                <Label Text="Imagenes en Mis Fotos" HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="FloralWhite"/>
-            </Frame>
+            
+                <Label Text="Imagenes en Mis Fotos" HorizontalOptions="CenterAndExpand" FontSize="60" TextColor="FloralWhite" Margin="10"/>
+        
             <ScrollView>
                 <ListView x:Name="listaImagen" HasUnevenRows="True" ItemTapped="listaImagen_ItemTapped" SeparatorVisibility="Default" 
                       Refreshing="listaImagen_Refreshing" IsPullToRefreshEnabled="True" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Grid Padding="10" BackgroundColor="#FFE1BA" Opacity="0.8">
+                                <Grid Padding="10" BackgroundColor="White" Opacity="0.8">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto" />
                                         <RowDefinition Height="*" />

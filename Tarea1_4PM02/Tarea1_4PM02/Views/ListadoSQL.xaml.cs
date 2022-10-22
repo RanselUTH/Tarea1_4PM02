@@ -14,6 +14,8 @@ namespace Tarea1_4.Views
         public ListadoSQL()
         {
             InitializeComponent();
+
+            Title = "IMG SQL";
         }
         protected async override void OnAppearing()
         {

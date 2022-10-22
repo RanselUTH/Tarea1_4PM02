@@ -18,6 +18,7 @@ namespace Tarea1_4.Views
         public Agrega()
         {
             InitializeComponent();
+            Title = "FOTOGRAFIAR";
         }
         private Byte[] ConvertImageToByteArray()
         {
